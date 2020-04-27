@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-interface ContainerProps {
+export interface HeaderProps {
   size?: 'small' | 'large';
 }
 
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.div<HeaderProps>`
   background: #5636d3;
   padding: 30px 0;
 
